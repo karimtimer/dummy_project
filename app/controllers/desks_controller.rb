@@ -3,7 +3,6 @@ class DesksController < ApplicationController
 
   # GET /desks or /desks.json
   def index
-    bindn
     @desks = Desk.all
   end
 
