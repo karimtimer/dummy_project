@@ -3,6 +3,9 @@ class DesksController < ApplicationController
 
   # GET /desks or /desks.json
   def index
+    @n_plus_oneing = Room.all.map do |room|
+      room.desks.map { |desk| desk.number }
+    end
     @desks = Desk.all
   end
 
