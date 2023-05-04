@@ -12,6 +12,9 @@ gem "sprockets-rails"
 # Use postgres as the database
 gem "pg"
 
+# For Jiminy / Prosopite
+gem 'pg_query'
+
 # Use the Puma web server [https://github.com/puma/puma]
 gem "puma", "~> 5.0"
 
