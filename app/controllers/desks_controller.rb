@@ -3,6 +3,9 @@ class DesksController < ApplicationController
 
   # GET /desks or /desks.json
   def index
+    Desk.all.each do |desk|
+      puts "Desk number #{desk.number} belongs in room number #{desk.room.number}"
+    end
     @desks = Desk.all
   end
 
