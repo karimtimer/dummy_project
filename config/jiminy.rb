@@ -1,5 +1,5 @@
 Jiminy.configure do |config|
-  config.ci_workflow_name = "workflow"
+  config.ci_workflow_name = "build_and_test"
 
   config.project_username = "karimtimer"
 
