@@ -1,3 +1,14 @@
+GIT
+  remote: https://github.com/bodacious/jiminy.git
+  revision: bdb2dc7a092171b277431637009f2a18b8c26eaf
+  branch: main
+  specs:
+    jiminy (0.4.0)
+      octokit (>= 4)
+      prosopite (>= 1)
+      rspec
+      thor (>= 1.2)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -99,11 +110,6 @@ GEM
     jbuilder (2.11.5)
       actionview (>= 5.0.0)
       activesupport (>= 5.0.0)
-    jiminy (0.4.0)
-      octokit (>= 4)
-      prosopite (>= 1)
-      rspec
-      thor (>= 1.2)
     loofah (2.20.0)
       crass (~> 1.0.2)
       nokogiri (>= 1.5.9)
@@ -229,7 +235,7 @@ DEPENDENCIES
   debug
   factory_bot_rails
   jbuilder
-  jiminy
+  jiminy!
   pg
   puma (~> 5.0)
   rails (~> 7.0.4)
